@@ -1,0 +1,10 @@
+{
+  "name": "base64aes256messaging",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "urlsafe-base64": "1.0.0"
+  }
+}

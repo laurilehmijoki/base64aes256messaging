@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var encrypt = require('./crypto_helper').encrypt
+
+if (process.argv.length != 4) {
+  console.log('Usage: ' + __filename + ' <encryption_key> <message>')
+  process.exit(1)
+}
+
+console.log(
+  encrypt(process.argv[2], process.argv[3])
+)
